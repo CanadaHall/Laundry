@@ -1,24 +1,24 @@
 ## Table of Contents
 
--   [Overview](#overview)
-    -   [Features](#features)
-    -   [How It Works](#how-it-works)
--   [Documentation](#documentation)
-    -   [Get Started](#get-started)
+- [Overview](#overview)
+  - [Features](#features)
+  - [How It Works](#how-it-works)
+- [Documentation](#documentation)
+  - [Get Started](#get-started)
 
 ## Overview
 
 The Laundry Management System is an innovative solution designed to enhance convenience for residents. This system simplifies the process of managing shared laundry machines by:
 
--   **QR Code Integration:** Each machine is equipped with a unique QR code. Residents can scan the code to mark the machine as "in use" on the system's website.
--   **Real-Time Updates:** The website provides real-time information on machine availability, helping residents plan their laundry schedule effectively.
--   **Cycle Completion Notifications:** Residents receive timely notifications when their laundry cycle is complete, allowing them to collect their items promptly and free up the machine for others.
+- **QR Code Integration:** Each machine is equipped with a unique QR code. Residents can scan the code to mark the machine as "in use" on the system's website.
+- **Real-Time Updates:** The website provides real-time information on machine availability, helping residents plan their laundry schedule effectively.
+- **Cycle Completion Notifications:** Residents receive timely notifications when their laundry cycle is complete, allowing them to collect their items promptly and free up the machine for others.
 
 ### Features
 
--   Streamlined laundry management with QR codes.
--   Transparent machine usage tracking.
--   Personalized cycle completion alerts.
+- Streamlined laundry management with QR codes.
+- Transparent machine usage tracking.
+- Personalized cycle completion alerts.
 
 ### How It Works
 
@@ -30,7 +30,19 @@ The Laundry Management System is an innovative solution designed to enhance conv
 
 ### Getting Started
 
-First, run the development server:
+First, install dependencies:
+
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+# or
+bun install
+```
+
+Then, ensure that all environment variables listed in `.env.example` are set, and run the development server:
 
 ```bash
 npm run dev

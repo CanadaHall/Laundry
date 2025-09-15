@@ -10,17 +10,7 @@ const authOptions: NextAuthOptions = {
     providers: [
         CredentialsProvider({
             name: "Credentials",
-            credentials: {
-                email: {
-                    label: "Email",
-                    type: 'email',
-                    placeholder: 'Email'
-                },
-                password: {
-                    label: "Password",
-                    type: 'password',
-                },
-            },
+            credentials: {}, // we will handle the form ourselves
             async authorize (credentials, req)
             {
                 // TODO: Add logic here to look up the user from the credentials supplied
